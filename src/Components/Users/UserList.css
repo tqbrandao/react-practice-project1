@@ -1,0 +1,22 @@
+.user-list {
+  padding: 1rem;
+  margin: 2rem auto;
+  width: 90%;
+  max-width: 30rem;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+.user-list ul {
+  list-style: none;
+  padding: 1rem;
+}
+
+.user-list li {
+  border: 1px solid #ccc;
+  padding: 0.3rem;
+  margin-bottom: 0.5rem 0;
+}
+
+.hidden {
+  display: none;
+}
