@@ -18,7 +18,7 @@ function App() {
   return (
     <div>
       <AddUser onSaveUserData={saveUserDataHandler} />
-      <UserList userData={userData} />
+      <UserList userData={userData} isVisible={userData.length >= 1} />
     </div>
   );
 }

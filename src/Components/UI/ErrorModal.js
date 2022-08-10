@@ -5,7 +5,7 @@ import "./ErrorModal.css";
 
 function ErrorModal(props) {
   return (
-    <div>
+    <React.Fragment>
       <div className="backdrop" onClick={props.onDismiss} />
       <Card className="modal">
         <header className="header">
@@ -18,7 +18,7 @@ function ErrorModal(props) {
           <Button onClick={props.onDismiss}>I get it!</Button>
         </footer>
       </Card>
-    </div>
+    </React.Fragment>
   );
 }
 

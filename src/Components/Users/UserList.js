@@ -4,7 +4,7 @@ import Card from "../UI/Card";
 
 function UserList(props) {
   return (
-    <Card className="user-list">
+    <Card className={`user-list ${!props.isVisible && "hidden"}`}>
       <ul>
         {props.userData.map((user) => {
           return <li>{`${user.username} (${user.age} years old)`}</li>;
