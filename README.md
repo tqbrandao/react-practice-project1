@@ -16,7 +16,7 @@ You can clone the repo or download the ZIP file. Then run:
 ```bash
 npm install
 ```
-Rename the .env.example file to .env and set variables with your own API Keys (Youtube and Ticketmaster).
+Rename the ".env.example" file to ".env" and set variables with your own API Keys (Youtube and Ticketmaster).
 Finally:
 ```bash
 npm run dev
