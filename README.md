@@ -1,5 +1,5 @@
 # Rock Content Coding Challenge 🤘
-This is an application built with React JS.
+This is an application built with React which retrieves data from two API's (Youtube and Ticketmaster) and displays a video list and information about any artist or band.
 
 ## Implementation
 
